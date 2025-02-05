@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Menu, X } from "lucide-react";
+import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
@@ -26,14 +26,14 @@ export default function Navigation() {
     <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b"
+      className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b border-amber-500/10"
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <motion.span
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            className="text-xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent"
+            className="text-xl font-bold bg-gradient-to-r from-amber-400 to-amber-600 bg-clip-text text-transparent"
           >
             Portfolio
           </motion.span>
@@ -44,9 +44,9 @@ export default function Navigation() {
               <button
                 key={item.name}
                 onClick={() => scrollToSection(item.href)}
-                className={`text-sm font-medium transition-colors hover:text-primary ${
+                className={`text-sm font-medium transition-colors hover:text-amber-400 ${
                   activeSection === item.name.toLowerCase()
-                    ? "text-primary"
+                    ? "text-amber-400"
                     : "text-muted-foreground"
                 }`}
               >
@@ -70,7 +70,7 @@ export default function Navigation() {
                     onClick={() => {
                       scrollToSection(item.href);
                     }}
-                    className="text-lg font-medium transition-colors hover:text-primary"
+                    className="text-lg font-medium transition-colors hover:text-amber-400"
                   >
                     {item.name}
                   </button>
