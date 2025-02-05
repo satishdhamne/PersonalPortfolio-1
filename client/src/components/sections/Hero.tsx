@@ -49,11 +49,10 @@ export default function Hero() {
               </Button>
               <Button 
                 size="lg" 
-                variant="outline" 
-                className="min-w-[140px] sm:min-w-[160px] border-amber-500/20 hover:bg-amber-500/10"
+                className="min-w-[140px] sm:min-w-[160px] bg-amber-500 hover:bg-amber-600"
                 onClick={() => document.getElementById('hire')?.scrollIntoView({ behavior: 'smooth' })}
               >
-                Hire Me
+                Hire Me <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </div>
 
