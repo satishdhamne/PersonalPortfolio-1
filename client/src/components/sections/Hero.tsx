@@ -30,9 +30,18 @@ export default function Hero() {
             </div>
 
             <p className="text-base sm:text-lg text-muted-foreground max-w-xl mx-auto lg:mx-0">
-              I build exceptional digital experiences and solve complex problems through code. 
-              Currently focusing on web development and software engineering.
+              Let's work together, and create something really amazing.
             </p>
+
+            <div className="flex flex-wrap gap-4 pt-4 justify-center lg:justify-start">
+              <Button
+                size="lg"
+                className="min-w-[140px] sm:min-w-[260px] bg-emerald-500 hover:bg-emerald-600"
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+              >
+                Contact Me, I'm available for work
+              </Button>
+            </div>
 
             <div className="flex flex-wrap gap-4 pt-4 justify-center lg:justify-start">
               <Button size="lg" className="min-w-[140px] sm:min-w-[160px] bg-amber-500 hover:bg-amber-600">
