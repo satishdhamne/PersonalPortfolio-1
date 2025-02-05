@@ -35,7 +35,7 @@ export default function Navigation() {
             animate={{ opacity: 1 }}
             className="text-xl font-bold bg-gradient-to-r from-amber-400 to-amber-600 bg-clip-text text-transparent"
           >
-            Portfolio
+           Satish Dhamne
           </motion.span>
 
           {/* Desktop Navigation */}

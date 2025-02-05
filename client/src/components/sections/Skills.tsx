@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
-import { SiJavascript, SiTypescript, SiReact, SiPython, SiApachemaven, SiGit } from "react-icons/si";
+import { SiJavascript, SiReact, SiGreensock, SiMongodb, SiTailwindcss, SiGit } from "react-icons/si";
 
 const skills = [
   { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
-  { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
+  { name: "MERN", icon: SiMongodb, color: "#4CAF50" },
+  { name: "GreenSock Animation Platform", icon: SiGreensock, color: "#00C875" },
   { name: "React", icon: SiReact, color: "#61DAFB" },
-  { name: "Python", icon: SiPython, color: "#3776AB" },
-  { name: "Java", icon: SiApachemaven, color: "#007396" },
+  { name: "Tailwind CSS", icon: SiTailwindcss, color: "#38B2AC" },
   { name: "Git", icon: SiGit, color: "#F05032" },
 ];
 

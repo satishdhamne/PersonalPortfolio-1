@@ -21,11 +21,11 @@ export default function Hero() {
               <h2 className="text-lg text-primary">Hi, my name is</h2>
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">
                 <span className="bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 bg-clip-text text-transparent">
-                  [Your Name]
+                 Satish Dhamne
                 </span>
               </h1>
               <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground font-medium">
-                Computer Science Student & Full Stack Developer
+                 Full Stack Developer
               </p>
             </div>
 
@@ -36,7 +36,7 @@ export default function Hero() {
             <div className="flex flex-wrap gap-4 pt-4 justify-center lg:justify-start">
               <Button
                 size="lg"
-                className="min-w-[140px] sm:min-w-[260px] bg-emerald-500 hover:bg-emerald-600"
+                className="min-w-[140px] sm:min-w-[260px]  bg-amber-500 hover:bg-amber-600"
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 Contact Me, I'm available for work
@@ -47,13 +47,7 @@ export default function Hero() {
               <Button size="lg" className="min-w-[140px] sm:min-w-[160px] bg-amber-500 hover:bg-amber-600">
                 View Projects <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
-              <Button 
-                size="lg" 
-                className="min-w-[140px] sm:min-w-[160px] bg-amber-500 hover:bg-amber-600"
-                onClick={() => document.getElementById('hire')?.scrollIntoView({ behavior: 'smooth' })}
-              >
-                Hire Me <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
+              {/* Removed Hire Me button */}
             </div>
 
             <div className="flex gap-4 pt-6 justify-center lg:justify-start">
@@ -63,7 +57,7 @@ export default function Hero() {
                 </Button>
               </a>
               <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
-                <Button variant="ghost" size="icon" className="hover:bg-amber-500/10">
+                <Button variant="ghost" size="icon" className="hover:bg-amber-510/10">
                   <Linkedin className="h-5 w-5" />
                 </Button>
               </a>
@@ -87,14 +81,14 @@ export default function Hero() {
             transition={{ duration: 0.5 }}
             className="relative order-first lg:order-last"
           >
-            <div className="relative mx-auto w-[220px] h-[220px] sm:w-[280px] sm:h-[280px]">
+            {/* <div className="relative mx-auto w-[220px] h-[220px] sm:w-[280px] sm:h-[280px]">
               <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-amber-500/20 via-amber-400/10 to-transparent animate-pulse" />
               <img
-                src="/attached_assets/kkkkkkkkkkkk.jpg"
-                alt="Profile"
+                src="/attached_assets/pic.jpg"
+                alt="#"
                 className="rounded-full w-[200px] h-[200px] sm:w-[260px] sm:h-[260px] object-cover border-4 border-amber-500/20 shadow-xl relative z-10 mx-auto"
               />
-            </div>
+            </div> */}
           </motion.div>
         </div>
       </div>

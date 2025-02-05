@@ -6,19 +6,35 @@ import { Github, ExternalLink } from "lucide-react";
 // Projects data - easily add or modify projects here
 const projects = [
   {
-    title: "Project Name 1",
-    description: "Detailed description of your project. What technologies you used, what problems you solved, and what you learned.",
+    title: " Netjets : Flight Booking Website",
+    description: "Netjets was presented at the Reimagin  competition showcasing its innovative approach to web redesign.",
     image: "[Project Image URL]",
-    technologies: ["React", "Node.js", "MongoDB"],
-    github: "#",
+    technologies: ["HTML", "CSS", "GSAP", "JavaScript"],
+    github: "https://github.com/satishdhamne/FliteBookingWeb",
+    demo: "https://satishdhamne.github.io/FliteBookingWeb/",
+  },
+  {
+    title: "PictureNest",
+    description: "PictureNest is a personal gallery web application designed for users to upload, view, and manage their collection of images seamlessly.",
+    image: "/attached_assets/pictureNest.png",
+    technologies: ["JavaScript", "Express", "Node.js"],
+    github: "https://github.com/satishdhamne/PictureNest",
+    demo: "https://picturenest-3.onrender.com",
+  },
+  {
+    title: "Autobot",
+    description: " A Content Generator, Autobot, an advanced application that generates audio, video, and images using Replicate AI's API.",
+    image: "[Project Image URL]",
+    technologies: ["Typescript", "React.js", "Next.js"],
+    github: "https://github.com/satishdhamne/minor_project",
     demo: "#",
   },
   {
-    title: "Project Name 2",
-    description: "Another project description. Make it detailed and informative to showcase your skills and experience.",
+    title: "Social Media App",
+    description: "Focused solely on API development, ensuring seamless and scalable data interactions with MongoDB.",
     image: "[Project Image URL]",
-    technologies: ["TypeScript", "Express", "PostgreSQL"],
-    github: "#",
+    technologies: ["JavaScript", "Express", "Node.js", "MongoDB"],
+    github: "https://github.com/satishdhamne",
     demo: "#",
   },
   // Add more projects as needed

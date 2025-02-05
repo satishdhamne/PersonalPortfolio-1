@@ -172,8 +172,8 @@ export default function HireMe() {
                           </SelectTrigger>
                         </FormControl>
                         <SelectContent>
-                          <SelectItem value="small">$1,000 - $5,000</SelectItem>
-                          <SelectItem value="medium">$5,000 - $10,000</SelectItem>
+                          <SelectItem value="small">$1,000 - $10,000</SelectItem>
+                          <SelectItem value="medium">$5,000 - $15,000</SelectItem>
                           <SelectItem value="large">$10,000+</SelectItem>
                         </SelectContent>
                       </Select>
