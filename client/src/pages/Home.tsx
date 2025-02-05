@@ -3,7 +3,6 @@ import Hero from "@/components/sections/Hero";
 import About from "@/components/sections/About";
 import Skills from "@/components/sections/Skills";
 import Projects from "@/components/sections/Projects";
-import HireMe from "@/components/sections/HireMe";
 import Contact from "@/components/sections/Contact";
 import Navigation from "@/components/Navigation";
 
@@ -21,7 +20,6 @@ export default function Home() {
         <About />
         <Skills />
         <Projects />
-        <HireMe />
         <Contact />
       </motion.main>
     </div>
