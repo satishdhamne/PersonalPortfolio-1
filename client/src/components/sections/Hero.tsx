@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Github, Linkedin } from "lucide-react";
+import { ArrowRight, Github, Linkedin, Instagram, Mail } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -57,6 +57,16 @@ export default function Hero() {
               <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" size="icon" className="hover:bg-amber-500/10">
                   <Linkedin className="h-5 w-5" />
+                </Button>
+              </a>
+              <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
+                <Button variant="ghost" size="icon" className="hover:bg-amber-500/10">
+                  <Instagram className="h-5 w-5" />
+                </Button>
+              </a>
+              <a href="mailto:your.email@gmail.com">
+                <Button variant="ghost" size="icon" className="hover:bg-amber-500/10">
+                  <Mail className="h-5 w-5" />
                 </Button>
               </a>
             </div>
