@@ -51,12 +51,11 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
             className="relative hidden lg:block"
           >
-            {/* Add your profile image here */}
-            <div className="w-[400px] h-[400px] rounded-full bg-gradient-to-br from-primary/20 to-primary/10 flex items-center justify-center">
+            <div className="w-[189px] h-[189px] rounded-full bg-gradient-to-br from-primary/20 to-primary/10 flex items-center justify-center mx-auto">
               <img
-                src="[Your Profile Image URL]"
+                src="/attached_assets/kkkkkkkkkkkk.jpg"
                 alt="Profile"
-                className="w-[380px] h-[380px] rounded-full object-cover"
+                className="w-[180px] h-[180px] rounded-full object-cover"
               />
             </div>
           </motion.div>
